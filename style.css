@@ -103,11 +103,11 @@ html,body {
     }
 
     .header__logo {
-        height: 50px;
+        height: 60px;
     }
 
     .header__logo p {
-        font-size: 35px;
+        font-size: 42px;
     }
 
     .header__burger {
