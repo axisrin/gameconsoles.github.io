@@ -22,8 +22,11 @@ header__list.onclick = function () {
     back.classList.remove('lock');
 }
 
+let color = '#00d2d2';
+let times = setTimeout( function () {
+    $('.content__header h1').css('box-shadow', '0px 2px 0px 0px' + color);
+}, 0)
 
-let color = '#ff6e91';
 let timer = setInterval(function () {
     if (color === '#00d2d2') {
             color = '#ff6e91';
