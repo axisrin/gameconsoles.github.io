@@ -24,7 +24,7 @@ header__list.onclick = function () {
 
 let color = '#00d2d2';
 let times = setTimeout( function () {
-    $('.content__header h1').css('box-shadow', '0px 2px 0px 0px' + color);
+    $('.content__header h1 , .page__header h1').css('box-shadow', '0px 2px 0px 0px' + color);
 }, 0)
 
 let timer = setInterval(function () {
@@ -33,7 +33,7 @@ let timer = setInterval(function () {
         } else if (color === '#ff6e91') {
             color = '#00d2d2';
         }
-        $('.content__header h1').css('box-shadow', '0px 2px 0px 0px' + color);
+        $('.content__header h1 , .page__header h1').css('box-shadow', '0px 2px 0px 0px' + color);
     }, 3100);
 
 
